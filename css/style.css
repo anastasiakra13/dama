@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .center{
-	width: 1174px;
+	max-width: 1174px;
 	margin: 0 auto;
 }
 
@@ -1340,20 +1340,8 @@ footer .copy{
     transition: .2s;
 }
 
-.pays a img:nth-child(1){
-	opacity: 1
-}
-
-.pays a img:nth-child(2){
-	opacity: 0
-}
-
-.pays a:hover img:nth-child(1){
-	opacity: 0
-}
-
-.pays a:hover img:nth-child(2){
-	opacity: 1
+.pays a:hover img{
+	background: #f4c415;
 }
 
 .popup{
